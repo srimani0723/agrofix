@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow requests from frontend
+    origin: ["http://localhost:5173","https://agrofix-5hlb.onrender.com"] // Allow requests from frontend
   })
 );
 
