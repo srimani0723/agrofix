@@ -49,4 +49,29 @@ Install all the necessary dependencies for both the frontend and backend by runn
 ```bash
 npm install
 ```
+## **3. Set Environment Variables**
+Create a `.env` file in the root of the project and add the following variables:
+
+This `.env` file is required for the backend to:
+- Connect to the database.
+- Handle secure JSON Web Tokens (JWT) for authentication.
+
+---
+
+## **4. Start the Application**
+To run the application, follow these steps:
+
+1. **Start the Backend**:
+   Use the following command to start the server:
+   ```bash
+   cd backend
+   nodemon index.js
+   ```
+2. **Start the Frontend**:
+   Use the following command to start the server:
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+   
 
