@@ -7,11 +7,7 @@ const cors = require("cors");
 const app = express();
 app.use(bodyParser.json());
 
-app.use(
-  cors({
-    origin: ["http://localhost:5173","https://agrofix-blond.vercel.app/"] // Allow requests from frontend
-  })
-);
+app.use(cors());
 
 app.use("/api/products", productRoutes);
 app.use("/api/orders", orderRoutes);
