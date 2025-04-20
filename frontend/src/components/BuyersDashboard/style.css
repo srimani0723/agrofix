@@ -1,0 +1,30 @@
+/* Dashboard Container */
+.dashboard-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Welcome Text */
+.welcome-text {
+  font-weight: bold;
+  color: #2196f3;
+}
+
+/* Subtext */
+.subtext {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Store Button */
+.store-button {
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 12px 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.store-button:hover {
+  background: #1769aa; /* Darker shade for hover */
+}
