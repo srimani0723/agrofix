@@ -43,3 +43,10 @@ This project is a web application designed to manage role-based routing and auth
 ```bash
 git clone https://github.com/yourusername/repository-name.git
 cd repository-name
+```
+## **2. Install Dependencies**
+Install all the necessary dependencies for both the frontend and backend by running the following command:
+```bash
+npm install
+```
+
